@@ -9,11 +9,11 @@ python manage.py migrate
 
 # creating DB
 
-createdb pet_db
+createdb -U "USER_NAME" pet_db
 
 # delete db
 
-dropdb pet_db
+dropdb -U "USER_NAME" pet_db
 
 # admin_user
 
