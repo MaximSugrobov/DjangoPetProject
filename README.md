@@ -11,7 +11,7 @@ python manage.py migrate
 
 createdb -U "USER_NAME" pet_db
 
-# delete db
+# delete DB
 
 dropdb -U "USER_NAME" pet_db
 
